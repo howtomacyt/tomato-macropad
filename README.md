@@ -1,6 +1,7 @@
 # tomato-macropad
 This is my macropad that I somehow spent nearly 4 straight days on!!
 I'm also documenting this journey for a youtube video, released once I assemble the real thing. 
+Felt very torturous at times but I am glad it's over and I've got something to show for all that work (hopefully)
 
 ## Features ##
 128x32 OLED Display
