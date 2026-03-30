@@ -25,11 +25,11 @@ It is still a WIP, I had difficulties figuring it out and I need to learn more a
 
 ## Bill of Materials ##
 
-9x Cherry MX Switches
-9x DSA Keycaps
-4x M3x5x4 Heatset inserts
-4x M3x16mm SHCS Bolts
-9x 1N4148 DO-35 Diodes.
-1x 0.91" 128x32 OLED Display
-1x EC11 Rotary Encoder
-1x XIAO RP2040
+*9x Cherry MX Switches
+*9x DSA Keycaps
+*4x M3x5x4 Heatset inserts
+*4x M3x16mm SHCS Bolts
+*9x 1N4148 DO-35 Diodes.
+*1x 0.91" 128x32 OLED Display
+*1x EC11 Rotary Encoder
+*1x XIAO RP2040
