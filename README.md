@@ -1,6 +1,7 @@
 # tomato-macropad
 This is my macropad that I somehow spent nearly 4 straight days on!!
 I'm also documenting this journey for a youtube video, released once I assemble the real thing. 
+Felt very torturous at times but I am glad it's over and I've got something to show for all that work (hopefully)
 
 ## Features ##
 128x32 OLED Display
@@ -15,6 +16,7 @@ It has 2 separate printed pieces.<img width="966" height="665" alt="Screenshot 2
 
 ## PCB ##
 Experimented with RGB lights, but decided not to include them due to the added complexity in tracing. I also had difficulties implementing the firmware for it. 
+I may consider switching to KMK. 
 <img width="661" height="454" alt="Screenshot 2026-03-31 at 02 10 03" src="https://github.com/user-attachments/assets/c952aac4-ab61-40b8-87b6-c70bb3ed34f9" />
 <img width="613" height="522" alt="Screenshot 2026-03-31 at 02 09 11" src="https://github.com/user-attachments/assets/9b4d4538-fd0f-4933-93cc-f04e708e523a" />
 
@@ -25,11 +27,11 @@ It is still a WIP, I had difficulties figuring it out and I need to learn more a
 
 ## Bill of Materials ##
 
-9x Cherry MX Switches
-9x DSA Keycaps
-4x M3x5x4 Heatset inserts
-4x M3x16mm SHCS Bolts
-9x 1N4148 DO-35 Diodes.
-1x 0.91" 128x32 OLED Display
-1x EC11 Rotary Encoder
-1x XIAO RP2040
+- 9x Cherry MX Switches
+- 9x DSA Keycaps
+- 4x M3x5x4 Heatset inserts
+- 4x M3x16mm SHCS Bolts
+- 9x 1N4148 DO-35 Diodes
+- 1x 0.91" 128x32 OLED Display
+- 1x EC11 Rotary Encoder
+- 1x XIAO RP2040
