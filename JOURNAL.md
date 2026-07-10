@@ -38,6 +38,7 @@ I thorugh it looked too bare-bones, which is when I realised I didn't have a kno
 So I made one real quick. 
 
 I'm now finally done assembling and uploading the firmware - the macropad is fully functional!!! 
+![image](https://cdn.hackclub.com/019f4cb7-eb1c-75ca-ba4a-2e31c7a9084d/IMG_4027.jpeg)
 
 ### Hours: 6
 
