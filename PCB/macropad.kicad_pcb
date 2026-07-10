@@ -56,8 +56,8 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
@@ -85,7 +85,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "macropad-backups/GEerbers/")
+			(outputdirectory "../production/")
 		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -145,12 +145,6 @@
 		(path "/5cb0afbc-5108-4044-a1f7-b4575eb39adc")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -437,12 +431,6 @@
 		(path "/191f7d94-49f0-446d-a8d5-9b97f28aa996")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -729,12 +717,6 @@
 		(path "/abc193ab-d4da-4448-ab6f-4ee2669ff023")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1021,12 +1003,6 @@
 		(path "/84b09b0f-ff14-4aa5-afad-bcea586963fd")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1313,12 +1289,6 @@
 		(path "/22056e08-4ffb-49f1-b069-66d518f11132")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1605,12 +1575,6 @@
 		(path "/279c8b7c-4576-45bd-bb2a-ec81030b7635")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2038,12 +2002,6 @@
 		(path "/d3af1533-beba-46b7-ad20-6fc4ae20e680")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2446,12 +2404,6 @@
 		(path "/ff0ab511-94f1-4c57-81ef-cd9308182376")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2708,12 +2660,6 @@
 		(path "/5df0fce3-6bf2-40c9-a225-74bc7e2aa7ed")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5806,12 +5752,6 @@
 		(path "/c0b2deee-d347-41b7-a8f0-9abe581de90d")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6073,12 +6013,6 @@
 		(path "/3d959fea-52b4-4cca-8f30-621a5cfa89ef")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6400,12 +6334,6 @@
 		(path "/88b668ba-edfa-4511-bd9c-e26502518ee0")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6702,12 +6630,6 @@
 		(path "/d43f0ef7-f250-4f33-bae3-132866c8cef1")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6966,12 +6888,6 @@
 		(path "/feddcb09-1ab2-42c1-9bb7-0150c9cd3205")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7423,12 +7339,6 @@
 		(path "/2f4be5f8-322d-4703-8674-704c9454a587")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7725,12 +7635,6 @@
 		(path "/07cd87e0-be5f-4b2e-9482-ff97967d0efa")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8027,12 +7931,6 @@
 		(path "/6b501059-738e-4689-b826-efcde56945f4")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8398,12 +8296,6 @@
 		(path "/88fb5b8b-f156-4027-b595-5ce714b18cb8")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8788,12 +8680,6 @@
 		(path "/8c94d6d4-797c-449f-ad4a-20f478011024")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9115,12 +9001,6 @@
 		(path "/14791014-64a2-46c2-bf82-51c1eb2def37")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9382,12 +9262,6 @@
 		(path "/2f730d9b-ff36-43fe-b410-e8234e2fdfce")
 		(sheetname "/")
 		(sheetfile "macropad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10108,14 +9982,6 @@
 		(layer "F.Cu")
 		(net "EC11B")
 		(uuid "da1f55ac-7c79-43fb-a380-ba5eb5db6300")
-	)
-	(segment
-		(start 32.305 45.858)
-		(end 30.905 44.458)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "EC11B")
-		(uuid "dbf464d9-dfb9-4f9a-be4a-7eb3aaea2c0c")
 	)
 	(segment
 		(start 91.018654 49.2)

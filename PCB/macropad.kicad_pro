@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "macropad-backups/GEerbers/",
+      "plot": "../production/",
       "specctra_dsn": "",
       "vrml": ""
     },

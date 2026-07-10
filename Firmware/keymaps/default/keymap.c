@@ -5,21 +5,21 @@
 
 enum layer_names {
     _MAC_DEFAULT, 
-    _MAC_EDITING
+    _NUM_PAD
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_ortho_3x3(
-        KC_MUTE,   KC_VOLU,   KC_VOLD,  
-        KC_BRIU,   KC_BRID,   KC_MCTL, 
-        KC_COPY,   KC_PASTE,   KC_FIND
-    ), 
-    //To be configured later
-    [1] = LAYOUT_ortho_3x3(
-        KC_MUTE,   KC_VOLU,   KC_VOLD,  
-        KC_BRIU,   KC_BRID,   KC_MCTL, 
-        KC_COPY,   KC_PASTE,   KC_FIND
-    )
+        KC_MUTE,   KC_VOLD,   KC_VOLU,  
+        KC_BRID,   KC_BRIU,   KC_MCTL, 
+        KC_PGDN,   KC_PGUP,   KC_DEL
+    // ), 
+    // To be configured later
+    // [1] = LAYOUT_ortho_3x3(
+    //     KC_1,   KC_2,   KC_3,  
+    //     KC_4,   KC_5,   KC_6, 
+    //     KC_7,   KC_8,   KC_9
+     )
 };
 
 
@@ -30,18 +30,18 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
 };
 #endif
 
-//code for layer switching TBI
+// //code for layer switching TBI
 
 #ifdef OLED_ENABLE
 bool oled_task_user() {
     oled_set_cursor(0,1);
     switch (get_highest_layer(layer_state)) {
         case _MAC_DEFAULT: 
-        oled_write("Default", false);
+        oled_write("hope you have a nice day.", false);
         break; 
 
-        case _MAC_EDITING: 
-        oled_write("Editing", false);
+        case _NUM_PAD: 
+        oled_write("Number Pad", false);
     }
     return false; 
 };
